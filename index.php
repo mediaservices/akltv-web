@@ -99,20 +99,14 @@
 					<li><a href="_schedule.php"><span>Upcoming</span></a></li>
 				</ul>	
 			</div>
-			
-			<div id="twitter">
-				<script type="text/javascript">
-					//new TWTR.Widget(twttr).render().setUser('aklegislature').start();
-				</script>
-			</div>
-			
+						
 		</div>
 	
 	<!-- end page specific javascript -->
 	</body>
 
 
-	<!-- Google Analytics -->
+	<!-- Google Analytics -
 	<script type="text/javascript">
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', 'UA-19402664-1']);
