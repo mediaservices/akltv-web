@@ -1,0 +1,79 @@
+/*
+ * 
+ *  Default screen style sheet for AlaskaLegislature.tv
+ * 
+ *   COMMENT YOUR CODE!!
+ * 
+ */
+
+body{
+	/* Ubuntu - Google loaded font */
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #020848;
+}
+
+body #content{
+	width:900px;
+	min-height:480px;
+	background-color: #ffffff;
+	margin: auto auto auto auto;
+}
+
+header{
+	height:225px;
+	background-image:url("http://test1.legis.state.ak.us/alaskalegislature.tv/images/akltv_banner.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	margin-top: -8px;
+}
+
+/* style for schedule div, everything schedule related should be nested under this. */
+div#live{
+	/* DEVELOPMENTAL */
+	border:black 1px solid;
+	/* end DEVELOPMENTAL */
+}
+
+	div#live table{
+		margin: auto auto auto auto;
+		width: 90%;
+		border-collapse: collapse;
+	    font-family: Sans-Serif;
+	    font-size: 18px;
+	    text-align: left;
+	}
+		div#live table th{
+			color: #003399;
+		    font-size: 14px;
+		    font-weight: normal;
+		    padding: 10px 8px;
+		}
+	
+		div#live table tr{
+		    color: #666699;
+    		padding: 3px;
+		}
+		
+		div#live table tr.odd{
+			background: none repeat scroll 0 0 #E8EDFF;
+		}
+
+/* */
+div#player{
+	min-height: 360px;
+	width: 640px;
+	background-color: #000000;
+}
+
+/* style for tab div, everything tab related should be nested under this. */
+div#tabs{
+	width: 632px;
+	margin: 0 auto 0 0;
+	clear:none;
+}
+/* twitter related stuff */
+div#twitter{
+	width: 250px;
+	clear:none;
+	float: right;
+}
